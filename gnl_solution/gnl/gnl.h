@@ -22,6 +22,6 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-int	get_next_line(char **line);
+char	*get_next_line(int fd);
 
 #endif
