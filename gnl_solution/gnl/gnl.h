@@ -17,10 +17,10 @@
 # define BUFFER_SIZE 42
 #endif
 
-# include <unistd.h>
-# include <fcntl.h>
-# include <stdlib.h>
-# include <stddef.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include <stddef.h>
 
 int	get_next_line(char **line);
 
