@@ -69,12 +69,11 @@ int	print_x (unsigned int hex)
 }
 int ft_printf (const char *format, ...)
 {
-	int count;
-	int 	i;
+	int count = 0;
+	int i = 0;
 	va_list list;
 	va_start (list, format);
-	count = 0;
-	i = 0;
+	
 	while(format[i] != '\0')
 	{
 		if (format[i] == '%')
